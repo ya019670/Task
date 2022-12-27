@@ -1,5 +1,3 @@
-// Online C# Editor for free
-// Write, Edit and Run your C# code using C# Online Compiler
 
 using System;
 
@@ -7,49 +5,55 @@ public class HelloWorld
 {
     public static void Main()
     {
-    //   1)  // reverse a string
-    //     Console.Write("enter the string : ");
-    //   string name=Console.ReadLine();
-    //   string reverse="";
-    //   for(int i=name.Length-1;i>=0;i--){
-    //       reverse=reverse+name[i];
-    //   }
-    //   Console.Write($"reverse string is :{reverse} ");
-    // }
+       1)  // reverse a string
+         Console.Write("enter the string : ");
+       string name=Console.ReadLine();
+       string reverse="";
+       for(int i=name.Length-1;i>=0;i--){
+           reverse=reverse+name[i];
+       }
+       Console.Write($"reverse string is :{reverse} ");
+     }
+
     // 2 count of a's
-    //   Console.Write("enter the string : ");
-    //   string name=Console.ReadLine();
-    // int count=0;
-    // for(int i=0;i<name.Length;i++){
-    //     if(name[i]=='a'){
-    //         count++;
-    //     }
-    // }
-    // Console.WriteLine($"num of a in string ==> {count}");
+
+       Console.Write("enter the string : ");
+       string name=Console.ReadLine();
+     int count=0;
+     for(int i=0;i<name.Length;i++){
+         if(name[i]=='a'){
+             count++;
+         }
+     }
+     Console.WriteLine($"num of a in string ==> {count}");
     
     // 3 ) last index of "a"
-    // Console.Write("enter the string : ");
-    // string name=Console.ReadLine();
-    // int index=0;
-    // for(int i=name.Length-1;i>=0;i--){
-    //     if(name[i]=='a'){
-    //         index=i;
-    //         break;
-    //     }
-    // }
-    // Console.WriteLine($"last index of 'a' ==> {index}");
+
+     Console.Write("enter the string : ");
+     string name=Console.ReadLine();
+     int index=0;
+     for(int i=name.Length-1;i>=0;i--){
+         if(name[i]=='a'){
+             index=i;
+             break;
+         }
+     }
+     Console.WriteLine($"last index of 'a' ==> {index}");
     
     // 4 remove all 'a'
-    // Console.Write("enter the string : ");
-    // string name=Console.ReadLine();
-    // string name_af="";
-    // for(int i=0;i<name.Length;i++){
-    //     if(name[i]!='a'){
-    //         name_af=name_af+name[i];
-    //     }
-    // }
-    // Console.WriteLine($"string after remove all 'a' ==> {name_af}");
-//  5) add 0 after each a
+
+     Console.Write("enter the string : ");
+     string name=Console.ReadLine();
+     string name_af="";
+     for(int i=0;i<name.Length;i++){
+         if(name[i]!='a'){
+             name_af=name_af+name[i];
+         }
+     }
+     Console.WriteLine($"string after remove all 'a' ==> {name_af}");
+
+    //  5) add 0 after each a
+
     // Console.Write("enter the string : ");
     // string name=Console.ReadLine();
     // string name_af="";
