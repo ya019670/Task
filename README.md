@@ -204,3 +204,70 @@ public class HelloWorld
      Console.WriteLine($"the fisrt larget element greater than avg {avg} ==>{max} ");
     
 }}
+
+
+
+
+
+
+//Square of a number 1
+    Console.Write("Enter number to get its square");
+    int x =Convert.ToInt32( Console.ReadLine());
+    Console.WriteLine(x*x);
+
+
+    // Average of two integers 2
+    Console.Write("Enter number x1 : ");
+    int x1 = Convert.ToInt32( Console.ReadLine());
+    Console.Write("Enter number x2 : ");
+    int x2 = Convert.ToInt32( Console.ReadLine());
+    int avg = (x1 + x2)/2;
+    Console.WriteLine(avg);
+
+    // Adding N integers 3
+    Console.Write("Enter number to add");
+    int sizee = Convert.ToInt32(Console.ReadLine());
+    int sum=0;
+    for(int i=0; i<sizee; i++){
+        int m =Convert.ToInt32(Console.ReadLine());
+        sum+=m;
+    }Console.WriteLine(sum);
+
+
+    //Converting Celsius to Fahrenheit 4
+    double Celsius = Convert.ToDouble(Console.ReadLine());
+    double fahrenhait =(Celsius*9)/5 + 32;
+    Console.WriteLine(fahrenhait);
+
+
+    //Converting String to Uppercase 5
+    Console.Write("Enter String To convert it to upper case : ");
+    string a =Console.ReadLine();
+    string converted = a.ToUpper();
+    Console.WriteLine(converted);
+
+//Max Number 7
+   Console.Write("Enter number of numbers to check max");
+   int size = Convert.ToInt32(Console.ReadLine());
+   var arr = new int [size];
+   for (int i = 0 ; i < size ; i++){
+    arr[i] = Convert.ToInt32(Console.ReadLine());
+    }
+     int max = 0;
+    for (int i = 0; i < arr.Length; i++){
+       if(max < arr[i]){
+        max=arr[i];
+       }
+    } Console.WriteLine(max);
+   
+
+   //Last Even Number 8
+   Console.Write("Enter size of numbers to get Last Even Number");
+    int S =Convert.ToInt32(Console.ReadLine());
+     int even=0;
+    for(int i=0 ; i<S; i++){
+        int n=Convert.ToInt32(Console.ReadLine());
+        if(n%2==0){
+           even=n;
+        }
+    }Console.WriteLine(even);
